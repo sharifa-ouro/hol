@@ -7,19 +7,19 @@ pipeline {
                 echo 'Hello World'
             }
         }
-stage('Hello') {
+stage('build') {
             steps {
-                echo 'Hello World'
+                echo 'Hello build'
             }
         }
- stage('Hello') {
+ stage('deploy') {
             steps {
-                echo 'Hello World'
+                echo 'Hello deploy'
             }
         }
- stage('Hello') {
+ stage('test') {
             steps {
-                echo 'Hello World'
+                echo 'Hello test'
             }
         }
     }
